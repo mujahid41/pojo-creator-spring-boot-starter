@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<duplicate-finder-result version="1">
+    <project artifactId="greeter-spring-boot-sample-app" groupId="org.sample-app" version="0.0.1-SNAPSHOT" type="jar"/>
+    <configuration skip="false" quiet="false" checkCompileClasspath="true" checkRuntimeClasspath="true" checkTestClasspath="true" failBuildInCaseOfDifferentContentConflict="false" failBuildInCaseOfEqualContentConflict="false" failBuildInCaseOfConflict="true" printEqualFiles="false" preferLocal="true" includeBootClasspath="false" bootClasspathProperty="sun.boot.class.path" includePomProjects="false" useDefaultResourceIgnoreList="true" useDefaultClassIgnoreList="true" useResultFile="true" resultFileMinClasspathCount="2" resultFile="/Users/mujahidansari/Desktop/Githb/tutorials-master/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-sample-app/target/duplicate-finder-result.xml">
+        <ignoredResourcePatterns/>
+        <ignoredClassPatterns/>
+        <conflictingDependencies/>
+        <ignoredDependencies/>
+    </configuration>
+    <results>
+        <result name="compile" conflictState="content-equal" failed="true">
+            <conflicts>
+                <conflict name="com.baeldung.spring-boot-modules:greeter-library:0.0.1-SNAPSHOT, com.baeldung.spring-boot-modules:greeter-spring-boot-autoconfigure:0.0.1-SNAPSHOT">
+                    <conflictResults>
+                        <conflictResult name="logback.xml" type="resources" excepted="false" failed="true" printed="true" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.baeldung.spring-boot-modules:greeter-library:0.0.1-SNAPSHOT" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="greeter-library" groupId="com.baeldung.spring-boot-modules" version="0.0.1-SNAPSHOT" versionRange="0.0.1-SNAPSHOT" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.baeldung.spring-boot-modules:greeter-spring-boot-autoconfigure:0.0.1-SNAPSHOT" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="greeter-spring-boot-autoconfigure" groupId="com.baeldung.spring-boot-modules" version="0.0.1-SNAPSHOT" versionRange="0.0.1-SNAPSHOT" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                    </conflictResults>
+                </conflict>
+            </conflicts>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources">
+                <classpathElement name="logback.xml">
+                    <file>/Users/mujahidansari/Desktop/Githb/tutorials-master/spring-boot-modules/spring-boot-custom-starter/greeter-library/target/greeter-library-0.0.1-SNAPSHOT.jar</file>
+                    <file>/Users/mujahidansari/Desktop/Githb/tutorials-master/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/target/greeter-spring-boot-autoconfigure-0.0.1-SNAPSHOT.jar</file>
+                </classpathElement>
+            </classpathElements>
+        </result>
+        <result name="runtime" conflictState="content-equal" failed="true">
+            <conflicts>
+                <conflict name="com.baeldung.spring-boot-modules:greeter-library:0.0.1-SNAPSHOT, com.baeldung.spring-boot-modules:greeter-spring-boot-autoconfigure:0.0.1-SNAPSHOT">
+                    <conflictResults>
+                        <conflictResult name="logback.xml" type="resources" excepted="false" failed="true" printed="true" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.baeldung.spring-boot-modules:greeter-library:0.0.1-SNAPSHOT" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="greeter-library" groupId="com.baeldung.spring-boot-modules" version="0.0.1-SNAPSHOT" versionRange="0.0.1-SNAPSHOT" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.baeldung.spring-boot-modules:greeter-spring-boot-autoconfigure:0.0.1-SNAPSHOT" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="greeter-spring-boot-autoconfigure" groupId="com.baeldung.spring-boot-modules" version="0.0.1-SNAPSHOT" versionRange="0.0.1-SNAPSHOT" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                    </conflictResults>
+                </conflict>
+            </conflicts>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources">
+                <classpathElement name="logback.xml">
+                    <file>/Users/mujahidansari/Desktop/Githb/tutorials-master/spring-boot-modules/spring-boot-custom-starter/greeter-library/target/greeter-library-0.0.1-SNAPSHOT.jar</file>
+                    <file>/Users/mujahidansari/Desktop/Githb/tutorials-master/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/target/greeter-spring-boot-autoconfigure-0.0.1-SNAPSHOT.jar</file>
+                </classpathElement>
+            </classpathElements>
+        </result>
+        <result name="test" conflictState="content-equal" failed="true">
+            <conflicts>
+                <conflict name="com.baeldung.spring-boot-modules:greeter-library:0.0.1-SNAPSHOT, com.baeldung.spring-boot-modules:greeter-spring-boot-autoconfigure:0.0.1-SNAPSHOT">
+                    <conflictResults>
+                        <conflictResult name="logback.xml" type="resources" excepted="false" failed="true" printed="true" conflictState="content-equal">
+                            <conflictNames>
+                                <conflictName name="com.baeldung.spring-boot-modules:greeter-library:0.0.1-SNAPSHOT" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="greeter-library" groupId="com.baeldung.spring-boot-modules" version="0.0.1-SNAPSHOT" versionRange="0.0.1-SNAPSHOT" type="jar"/>
+                                </conflictName>
+                                <conflictName name="com.baeldung.spring-boot-modules:greeter-spring-boot-autoconfigure:0.0.1-SNAPSHOT" artifact="true" localFolder="false" bootClasspathElement="false">
+                                    <artifact artifactId="greeter-spring-boot-autoconfigure" groupId="com.baeldung.spring-boot-modules" version="0.0.1-SNAPSHOT" versionRange="0.0.1-SNAPSHOT" type="jar"/>
+                                </conflictName>
+                            </conflictNames>
+                        </conflictResult>
+                    </conflictResults>
+                </conflict>
+            </conflicts>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources">
+                <classpathElement name="logback.xml">
+                    <file>/Users/mujahidansari/Desktop/Githb/tutorials-master/spring-boot-modules/spring-boot-custom-starter/greeter-library/target/greeter-library-0.0.1-SNAPSHOT.jar</file>
+                    <file>/Users/mujahidansari/Desktop/Githb/tutorials-master/spring-boot-modules/spring-boot-custom-starter/greeter-spring-boot-autoconfigure/target/greeter-spring-boot-autoconfigure-0.0.1-SNAPSHOT.jar</file>
+                </classpathElement>
+            </classpathElements>
+        </result>
+    </results>
+</duplicate-finder-result>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="greeter-library" />
+        <module name="greeter-spring-boot-autoconfigure" />
+        <module name="greeter-spring-boot-starter" />
+        <module name="pojo-creator-library" />
+        <module name="pojo-creator-spring-boot-autoconfigure" />
+        <module name="pojo-creator-spring-boot-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="greeter-library" target="1.8" />
+      <module name="greeter-spring-boot-autoconfigure" target="1.8" />
+      <module name="greeter-spring-boot-sample-app" target="1.6" />
+      <module name="greeter-spring-boot-starter" target="1.8.0_152-release" />
+      <module name="pojo-creator-library" target="1.8" />
+      <module name="pojo-creator-spring-boot-autoconfigure" target="1.8" />
+      <module name="pojo-creator-spring-boot-starter" target="1.8.0_152-release" />
+      <module name="spring-boot-custom-starter" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

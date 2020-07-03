@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pojo-creator-library/pojo-creator-library.iml" filepath="$PROJECT_DIR$/pojo-creator-library/pojo-creator-library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-creator-spring-boot-autoconfigure/pojo-creator-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/pojo-creator-spring-boot-autoconfigure/pojo-creator-spring-boot-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pojo-creator-spring-boot-starter/pojo-creator-spring-boot-starter.iml" filepath="$PROJECT_DIR$/pojo-creator-spring-boot-starter/pojo-creator-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-custom-starter.iml" filepath="$PROJECT_DIR$/spring-boot-custom-starter.iml" />
+    </modules>
+  </component>
+</project>
